@@ -139,4 +139,54 @@ p {
   cursor: pointer;
   margin: 0.2rem;
 }
+
+.nav_menu_container {
+  color: #829ab0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  line-height: 2;
+  height: 100vh;
+  color: #102a42;
+}
+
+.nav_menu_container .nav_close_btn {
+  cursor: pointer;
+  color: red;
+  text-align: right;
+  margin: 1rem;
+}
+
+.nav_menu_container .nav_menu {
+  margin: auto 0.5rem;
+}
+
+.nav_menu_container .nav_menu a {
+  text-transform: uppercase;
+  color: #102a42;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav_menu_container .nav_menu .nav_icon {
+  margin-right: 1rem;
+  margin-left: 20vw;
+}
+
+.nav_menu_container .nav_social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=index.css.map */

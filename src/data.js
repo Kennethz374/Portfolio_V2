@@ -36,69 +36,62 @@ is that Kenneth has voted as the best employee (with the highest performance ran
 consecutive years by his peers and superiors. Only 5% of the employees in the company would have
 such an honor every year and Kenneth is entitled to that every single year since he started working in
 FLIR IIS.`;
-let data = [
-	{
-		navList: [
-			{ id: 1, url: "/", text: "home", icon: <FaHome /> },
-			{ id: 2, url: "/experience", text: "experience", icon: <FaFileAlt /> },
-			{
-				id: 3,
-				url: "/projects",
-				text: "projects",
-				icon: <FaChalkboardTeacher />,
-			},
-			{ id: 4, url: "/reference", text: "reference", icon: <FaUserFriends /> },
-			{ id: 5, url: "/about", text: "about", icon: <FaUserFriends /> },
-			{ id: 6, url: "/contact", text: "contact", icon: <FaUserFriends /> },
-		],
-	},
+let data = {
+	navList: [
+		{ id: 1, url: "/", text: "home", icon: <FaHome /> },
+		{ id: 2, url: "/experience", text: "experience", icon: <FaFileAlt /> },
+		{
+			id: 3,
+			url: "/projects",
+			text: "projects",
+			icon: <FaChalkboardTeacher />,
+		},
+		{ id: 4, url: "/reference", text: "reference", icon: <FaUserFriends /> },
+		{ id: 5, url: "/about", text: "about", icon: <FaUserFriends /> },
+		{ id: 6, url: "/contact", text: "contact", icon: <FaUserFriends /> },
+	],
 
-	{
-		socialList: [
-			{
-				id: 1,
-				url: "https://www.linkedin.com/in/kenneth-zhang-9a785673/",
-				icon: <FaLinkedin />,
-			},
-			{
-				id: 2,
-				url: "https://github.com/Kennethz374",
-				icon: <FaGithub />,
-			},
+	socialList: [
+		{
+			id: 1,
+			url: "https://www.linkedin.com/in/kenneth-zhang-9a785673/",
+			icon: <FaLinkedin />,
+		},
+		{
+			id: 2,
+			url: "https://github.com/Kennethz374",
+			icon: <FaGithub />,
+		},
 
-			{
-				id: 3,
-				url: "mailto:kennethzhang374@gmail.com",
-				icon: <FaMailBulk />,
-			},
-		],
-	},
-	{
-		reference: [
-			{
-				id: 1,
-				images: "https://i.ibb.co/HYmr2wB/SFU.png",
-				name: "William Yu",
-				title: "Production Manager",
-				quote: FirstQuote,
-			},
+		{
+			id: 3,
+			url: "mailto:kennethzhang374@gmail.com",
+			icon: <FaMailBulk />,
+		},
+	],
+	reference: [
+		{
+			id: 1,
+			images: "https://i.ibb.co/HYmr2wB/SFU.png",
+			name: "William Yu",
+			title: "Production Manager",
+			quote: FirstQuote,
+		},
 
-			{
-				id: 2,
-				images: "https://i.ibb.co/HYmr2wB/SFU.png",
-				name: "Shahil Prasad",
-				title: "Senior Operator in FLIR IIS",
-				quote: SecondQuote,
-			},
-			{
-				id: 3,
-				images: "https://i.ibb.co/HYmr2wB/SFU.png",
-				name: "Steven Chan",
-				title: "Supervisor",
-				quote: ThirdQuote,
-			},
-		],
-	},
-];
-
+		{
+			id: 2,
+			images: "https://i.ibb.co/HYmr2wB/SFU.png",
+			name: "Shahil Prasad",
+			title: "Senior Operator in FLIR IIS",
+			quote: SecondQuote,
+		},
+		{
+			id: 3,
+			images: "https://i.ibb.co/HYmr2wB/SFU.png",
+			name: "Steven Chan",
+			title: "Supervisor",
+			quote: ThirdQuote,
+		},
+	],
+};
 export default data;

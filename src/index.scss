@@ -40,3 +40,39 @@
 		margin: 0.2rem;
 	}
 }
+
+.nav_menu_container {
+	color: $grey-6;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 1.5rem;
+	letter-spacing: $spacing;
+	line-height: 2;
+	height: 100vh;
+	color: $grey-1;
+
+	.nav_close_btn {
+		cursor: pointer;
+		color: red;
+		text-align: right;
+		margin: 1rem;
+	}
+	.nav_menu {
+		margin: auto 0.5rem;
+
+		a {
+			text-transform: uppercase;
+			color: $grey-1;
+			display: flex;
+		}
+		.nav_icon {
+			margin-right: 1rem;
+			margin-left: 20vw;
+		}
+	}
+	.nav_social {
+		display: flex;
+		justify-content: center;
+	}
+}
