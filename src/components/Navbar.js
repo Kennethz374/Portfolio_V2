@@ -1,7 +1,17 @@
 import React from "react";
+import { FaHamburger } from "react-icons/fa";
+import { useGlobalContext } from "../context";
 
 function Navbar() {
-	return <div>===============Navbar============</div>;
+	const { openHamburger } = useGlobalContext();
+	return (
+		<nav className="nav-container">
+			<h1 className="nav_logo">KennethZ</h1>
+			<div className="nav_bar" onClick={openHamburger}>
+				<FaHamburger />
+			</div>
+		</nav>
+	);
 }
 
 export default Navbar;
