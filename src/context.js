@@ -1,14 +1,23 @@
 import React, { useEffect, useReducer, useContext } from "react";
 import data from "./data";
+import reducer from "./reducer";
+import { TOGGLE_HAMBURGER } from "./action";
+
+const initialState = {
+	isHamburgerOpen: false,
+	data: data,
+};
 
 const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
-	const openHamberger = () => {
-		console.log("Hamberger is Open!!!");
+	const [state, dispatch] = useReducer(reducer, initialState);
+
+	const openHamburger = () => {
+		dispatch({ type: TOGGLE_HAMBURGER });
 	};
 	return (
-		<AppContext.Provider value={{ openHamberger, data }}>
+		<AppContext.Provider value={{ openHamburger, ...state }}>
 			{children}
 		</AppContext.Provider>
 	);

@@ -6,7 +6,7 @@ function Navbar() {
 	const { openHamburger } = useGlobalContext();
 	return (
 		<nav className="nav-container">
-			<h1 className="nav_logo">KennethZ</h1>
+			<h1 className="nav_logo">Kz' Portfolio</h1>
 			<div className="nav_bar" onClick={openHamburger}>
 				<FaHamburger />
 			</div>
