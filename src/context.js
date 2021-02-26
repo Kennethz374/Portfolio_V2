@@ -4,7 +4,7 @@ import reducer from "./reducer";
 import { TOGGLE_HAMBURGER } from "./action";
 
 const initialState = {
-	isHamburgerOpen: false,
+	isHamburgerOpen: true,
 	data: data,
 };
 
