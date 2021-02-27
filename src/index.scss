@@ -40,17 +40,8 @@
 		margin: 0.2rem;
 	}
 }
-// @keyframes mymove {
-// 	from {
-// 		left: 0px;
-// 	}
-// 	to {
-// 		left: 200px;
-// 	}
-// }
+
 .nav_menu_container {
-	// position: relative;
-	// animation: mymove 5s;
 	color: $grey-6;
 	display: flex;
 	flex-direction: column;
@@ -62,10 +53,23 @@
 	color: $grey-1;
 
 	.nav_close_btn {
+		position: absolute;
+		top: 0;
+		right: 0;
+		font-size: 2rem;
 		cursor: pointer;
 		color: red;
-		text-align: right;
+		text-align: center;
 		margin: 1rem;
+		padding: 0.5rem;
+		border: none;
+		width: 4rem;
+		background: transparent;
+
+		&:hover {
+			transform: scale(1.2);
+			transition: transform 0.3s;
+		}
 	}
 	.nav_menu {
 		margin: auto 0.5rem;
@@ -80,7 +84,7 @@
 		}
 
 		a {
-			text-transform: uppercase;
+			text-transform: capitalize;
 			color: $grey-1;
 			display: flex;
 			cursor: default;
@@ -100,5 +104,6 @@
 	.nav_social {
 		display: flex;
 		justify-content: center;
+		margin: 5rem;
 	}
 }
