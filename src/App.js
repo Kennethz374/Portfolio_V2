@@ -6,10 +6,12 @@ import Contact from "./pages/Contact";
 import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
 import Reference from "./pages/Reference";
+import Navbar from "./components/Navbar";
 
 function App() {
 	return (
 		<Router>
+			<Navbar />
 			<Switch>
 				<Route exact path="/">
 					<Home />
