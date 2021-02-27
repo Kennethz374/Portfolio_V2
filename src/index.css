@@ -370,4 +370,94 @@ p {
 .home_container .home_social_list a {
   color: white;
 }
+
+.home_container .home_social_list a :hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  color: #49a6e9;
+}
+
+.exp_container {
+  background-color: #c5e5fc;
+  opacity: 0.9;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.exp_container .exp_overlay {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.2;
+  background-color: #7cb96f;
+  z-index: 1;
+}
+
+.exp_container .exp_center {
+  margin: 1rem auto;
+  width: 90%;
+  max-width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  z-index: 10;
+}
+
+.exp_container .exp_center .exp_title {
+  letter-spacing: 0.3rem;
+  padding: 2rem;
+  z-index: 10;
+}
+
+.exp_container .exp_center .exp_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 10;
+}
+
+.exp_container .exp_center .exp_info .exp_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.exp_container .exp_center .exp_info .exp_nav button {
+  border: none;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 5px;
+  background-color: black;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  color: white;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.exp_container .exp_center .exp_info .exp_nav button:hover {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  background-color: #fff;
+  color: black;
+}
 /*# sourceMappingURL=index.css.map */

@@ -112,5 +112,45 @@ let data = {
 			quote: ThirdQuote,
 		},
 	],
+	exp: [
+		{
+			id: 1,
+			abbr: "Lighthouse",
+			organization: "Lighthouse Labs",
+			position: "Full Time Student",
+			image: "https://i.ibb.co/3MR7txT/lighthouselabs.jpg",
+			desc:
+				" Lighthouse Labs full-time programs: 12 weeks, 12 hours a day; the most intensive, immersive, accelerated courses; Main stacks includes HTML, CSS, REACT, RUBY&RAIL, CYPRESS, pgSQL",
+			date: "Aug 2019 - Nov 2019",
+		},
+		{
+			id: 2,
+			abbr: "FLIR IIS",
+			organization: "FLIR IIS",
+			position: "Lead Hand, Trainer",
+			image: "https://i.ibb.co/51GvXmL/FLIR-Systems-Logo-wine.png",
+			desc:
+				"Current | Started working as Production Team Lead in FLIR IIS - major responsibilies includes: training new operators to do testing, optical assembly, soldering; help manager to achieve production schedule; Solving minor technical issues",
+			date: "Oct 2016 - Current",
+		},
+		{
+			id: 3,
+			abbr: "PGR",
+			position: "Testing Operator",
+			organization: "Point Grey Research",
+			image: "https://i.ibb.co/QMC4FDC/xjigzmyc10ivj3em6kzd.png",
+			desc: `Started working as a testing operator in PGR - a developer of machine vision cameras for use in industrial, retial. mapping and other advanced imaging applications. Major task is to test all kinds of cameras manufacuring company.`,
+			date: "Dec 2013 - Sept 2016",
+		},
+		{
+			id: 4,
+			abbr: "SFU",
+			position: "A Hardworking Student",
+			organization: "Simon Fraser University",
+			image: "https://i.ibb.co/HYmr2wB/SFU.png",
+			desc: "Graduated with a Bachelor degree in Economics",
+			date: "Sept 2009 - Sept 2013",
+		},
+	],
 };
 export default data;
