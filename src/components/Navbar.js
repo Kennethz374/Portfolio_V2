@@ -8,10 +8,10 @@ function Navbar() {
 
 	if (isHamburgerOpen) {
 		return (
-			<div className="nav_menu_container">
-				<div className="nav_close_btn" onClick={openHamburger}>
+			<div className={`nav_menu_container`}>
+				<button className="nav_close_btn" onClick={openHamburger}>
 					<GiSkullCrossedBones />
-				</div>
+				</button>
 				<ul className="nav_menu">
 					{data.navList.map((navItem) => {
 						return (
@@ -26,19 +26,32 @@ function Navbar() {
 					{console.log(data)}
 				</ul>
 				<ul className="nav_social">
-					<li>facebook</li>
-					<li>gmail</li>
-					<li>linkedin</li>
+					{data.socialList.map((social) => {
+						return (
+							<li key={social.id}>
+								<a href={social.url}>{social.icon}</a>
+							</li>
+						);
+					})}
 				</ul>
 			</div>
 		);
 	} else {
 		return (
 			<nav className="nav-container">
-				<h1 className="nav_logo">Kz' Portfolio</h1>
-				<div className="nav_bar" onClick={openHamburger}>
+				<h1 className="nav_logo">Kz'</h1>
+				<ul className="nav_category">
+					{data.navList.map((category) => {
+						return (
+							<li className="category_item" key={category.id}>
+								<a href={category.url}>{category.text}</a>
+							</li>
+						);
+					})}
+				</ul>
+				<button className="nav_bar" onClick={openHamburger}>
 					<FaHamburger />
-				</div>
+				</button>
 			</nav>
 		);
 	}

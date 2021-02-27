@@ -1,11 +1,15 @@
 import {
 	FaHome,
 	FaFileAlt,
-	FaChalkboardTeacher,
+	FaHammer,
 	FaUserFriends,
 	FaLinkedin,
 	FaMailBulk,
 	FaGithub,
+	FaThumbsUp,
+	FaFacebookSquare,
+	FaInstagram,
+	FaMedium,
 } from "react-icons/fa";
 
 const FirstQuote = `I have been working in PointGrey/FLIR IIS for the past 20 years and Kenneth Zhang is the most
@@ -44,11 +48,11 @@ let data = {
 			id: 3,
 			url: "/projects",
 			text: "projects",
-			icon: <FaChalkboardTeacher />,
+			icon: <FaHammer />,
 		},
-		{ id: 4, url: "/reference", text: "reference", icon: <FaUserFriends /> },
+		{ id: 4, url: "/reference", text: "reference", icon: <FaThumbsUp /> },
 		{ id: 5, url: "/about", text: "about", icon: <FaUserFriends /> },
-		{ id: 6, url: "/contact", text: "contact", icon: <FaUserFriends /> },
+		{ id: 6, url: "/contact", text: "contact", icon: <FaMailBulk /> },
 	],
 
 	socialList: [
@@ -67,6 +71,21 @@ let data = {
 			id: 3,
 			url: "mailto:kennethzhang374@gmail.com",
 			icon: <FaMailBulk />,
+		},
+		{
+			id: 4,
+			url: "https://www.facebook.com/kennth.zhang",
+			icon: <FaFacebookSquare />,
+		},
+		{
+			id: 5,
+			url: "https://www.instagram.com/kennethnmaggie/",
+			icon: <FaInstagram />,
+		},
+		{
+			id: 6,
+			url: "https://medium.com/@kennethzhang374",
+			icon: <FaMedium />,
 		},
 	],
 	reference: [

@@ -17,27 +17,71 @@
 	border-top-color: $primary-1;
 	animation: spinner 0.6s linear infinite;
 }
-
 //============Navbar=========
 .nav-container {
-	display: flex;
+	display: grid;
+	grid-template-columns: 10% 70% 20%;
+	grid-column-gap: 0.5rem;
 	font-size: 2rem;
-	justify-content: space-between;
 	padding: 0.5rem;
 	background-color: $white;
 	align-items: center;
 
-	.nav_logo,
-	.nav_bar {
+	.nav_logo {
+		text-align: center;
 		color: $grey-1;
-		margin: 0.5rem;
+	}
+	.nav_bar {
+		width: 80%;
+		font-size: 2rem;
+		border: none;
+		background-color: transparent;
 	}
 
 	.nav_bar :hover {
 		transition: $transition;
 		color: $grey-4;
 		cursor: pointer;
-		margin: 0.2rem;
+		transform: scale(1.05);
+	}
+	// not visible in mobile view
+	.nav_category {
+		text-transform: capitalize;
+		display: flex;
+		font-size: 1rem;
+		justify-content: space-evenly;
+		visibility: hidden;
+
+		li {
+			margin: 0.5rem 0.5rem 0 0.5rem;
+			flex-shrink: 1;
+
+			a {
+				color: $primary-1;
+			}
+
+			&:hover a {
+				transition: $transition;
+
+				color: $grey-4;
+				border-bottom: 2px solid $grey-4;
+			}
+		}
+	}
+	@media only screen and (min-width: 766px) {
+		.nav_category {
+			// 		color: $primary-4;
+			font-size: 1.3rem;
+			visibility: visible;
+			li:hover {
+				transform: scale(1.1);
+				transition: $transition;
+			}
+		}
+
+		.nav_bar {
+			display: none;
+		}
 	}
 }
 
@@ -103,7 +147,19 @@
 	}
 	.nav_social {
 		display: flex;
-		justify-content: center;
+		justify-content: space-evenly;
 		margin: 5rem;
+		li {
+			cursor: pointer;
+			a {
+				font-size: 2rem;
+				color: $grey-4;
+			}
+			a :hover {
+				transform: scale(1.2);
+				transition: $transition;
+				color: $primary-5;
+			}
+		}
 	}
 }
