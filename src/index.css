@@ -382,8 +382,10 @@ p {
 .exp_container {
   background-color: #e1e7ed;
   opacity: 0.9;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  min-width: 100vw;
   position: relative;
 }
 
@@ -458,5 +460,32 @@ p {
   display: grid;
   -ms-grid-columns: auto auto auto auto;
       grid-template-columns: auto auto auto auto;
+}
+
+.exp_container .exp_center .exp_job {
+  margin: 1rem;
+  text-align: center;
+  line-height: 2;
+}
+
+.exp_container .exp_center .exp_job .exp_item img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid slategray;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 670px) {
+  .exp_container .exp_center .exp_job .exp_item_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 2rem auto;
+    text-align: left;
+  }
+  .exp_container .exp_center .exp_job .exp_item_content p {
+    margin-left: 2rem;
+    font-size: 1.2rem;
+  }
 }
 /*# sourceMappingURL=index.css.map */
