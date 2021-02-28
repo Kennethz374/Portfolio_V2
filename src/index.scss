@@ -233,24 +233,24 @@
 // ==========Experience=========
 
 .exp_container {
-	background-color: $primary-9;
+	background-color: #e1e7ed;
 	opacity: 0.9;
 	height: 100vh;
 	width: 100vw;
 	position: relative;
 
-	.exp_overlay {
-		position: absolute;
-		height: 100vh;
-		width: 100vw;
-		opacity: 0.2;
-		background-color: rgb(124, 185, 111);
-		z-index: 1;
-	}
+	// .exp_overlay {
+	// 	position: absolute;
+	// 	height: 100vh;
+	// 	width: 100vw;
+	// 	opacity: 0.2;
+	// 	background-color: rgb(124, 185, 111);
+	// 	z-index: 1;
+	// }
 
 	.exp_center {
 		// border: 4px solid yellow;
-		margin: 1rem auto;
+		margin: 0 auto;
 		width: 90%;
 		max-width: 800px;
 		display: flex;
@@ -263,35 +263,43 @@
 			letter-spacing: 0.3rem;
 			padding: 2rem;
 			z-index: 10;
+			color: #000000;
+		}
+
+		hr {
+			border-bottom: 2px solid green;
+			width: 40%;
+			margin: 0.5rem auto 0 auto;
 		}
 
 		.exp_info {
 			display: flex;
 			flex-direction: column;
 			z-index: 10;
+			.all {
+				margin: 0 auto;
+			}
+			button {
+				border: none;
+				font-size: 1rem;
+				letter-spacing: $spacing;
+				border-radius: 5px;
+				padding: 0.5rem;
+				margin: 5px;
+				background-color: transparent;
+				// box-shadow: $light-shadow;
+				color: $black;
+				cursor: pointer;
+				opacity: 0.8;
 
-			.exp_nav {
-				display: flex;
-				justify-content: space-around;
-
-				button {
-					border: none;
-					font-size: 1rem;
-					letter-spacing: $spacing;
-					border-radius: 5px;
-					padding: 0.5rem;
-					margin: 5px;
-					background-color: black;
-					box-shadow: $light-shadow;
-					color: white;
-					cursor: pointer;
-					opacity: 0.8;
-
-					&:hover {
-						transition: $transition;
-						background-color: $white;
-						color: black;
-					}
+				&:hover {
+					transition: $transition;
+					background-color: #000000;
+					color: skyblue;
+				}
+				.exp_nav {
+					display: grid;
+					grid-template-columns: auto auto auto auto;
 				}
 			}
 		}

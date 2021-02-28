@@ -7,8 +7,12 @@ function Experience() {
 		<section className="exp_container">
 			<div className="exp_overlay"></div>
 			<div className="exp_center">
-				<h2 className="exp_title">Experience</h2>
+				<h2 className="exp_title">
+					Experience
+					<hr />
+				</h2>
 				<div className="exp_info">
+					<button className="all">All</button>
 					<div className="exp_nav">
 						{data.exp.map((job) => {
 							return <button key={job.id}>{job.abbr}</button>;
