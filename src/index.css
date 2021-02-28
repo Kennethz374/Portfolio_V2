@@ -451,8 +451,8 @@ p {
 }
 
 .exp_container .exp_center .exp_info #CV-btn {
-  background-color: tomato;
-  width: 40%;
+  background-color: skyblue;
+  width: 25%;
   margin: 2rem auto;
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -502,14 +502,14 @@ p {
 }
 
 @media screen and (min-width: 670px) {
-  .exp_container .exp_center .exp_job .exp_item_content {
+  .exp_item_content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: 2rem auto;
     text-align: left;
   }
-  .exp_container .exp_center .exp_job .exp_item_content p {
+  .exp_item_content p {
     margin-left: 2rem;
     font-size: 1.2rem;
   }

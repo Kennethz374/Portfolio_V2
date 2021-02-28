@@ -286,8 +286,8 @@
 				margin: 0 auto;
 			}
 			#CV-btn {
-				background-color: tomato;
-				width: 40%;
+				background-color: skyblue;
+				width: 25%;
 				margin: 2rem auto;
 				box-shadow: $light-shadow;
 			}
@@ -328,19 +328,19 @@
 					border-radius: 10px;
 				}
 			}
+		}
+	}
+}
 
-			@media screen and (min-width: 670px) {
-				.exp_item_content {
-					display: flex;
-					margin: 2rem auto;
-					text-align: left;
+@media screen and (min-width: 670px) {
+	.exp_item_content {
+		display: flex;
+		margin: 2rem auto;
+		text-align: left;
 
-					p {
-						margin-left: 2rem;
-						font-size: 1.2rem;
-					}
-				}
-			}
+		p {
+			margin-left: 2rem;
+			font-size: 1.2rem;
 		}
 	}
 }

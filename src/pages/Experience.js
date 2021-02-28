@@ -7,10 +7,7 @@ function Experience() {
 	return (
 		<section className="exp_container">
 			<div className="exp_center">
-				<h2 className="exp_title">
-					Experience
-					<hr />
-				</h2>
+				<h2 className="exp_title">Experience</h2>
 				<div className="exp_info">
 					<button className="all" onClick={() => toggleExp(0)}>
 						All
