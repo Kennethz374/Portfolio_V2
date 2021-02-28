@@ -380,7 +380,7 @@ p {
 }
 
 .exp_container {
-  background-color: #e1e7ed;
+  background-color: white;
   opacity: 0.9;
   height: 100%;
   width: 100%;
@@ -435,6 +435,14 @@ p {
   margin: 0 auto;
 }
 
+.exp_container .exp_center .exp_info #CV-btn {
+  background-color: tomato;
+  width: 40%;
+  margin: 2rem auto;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
 .exp_container .exp_center .exp_info button {
   border: none;
   font-size: 1rem;
@@ -471,7 +479,7 @@ p {
 .exp_container .exp_center .exp_job .exp_item img {
   width: 150px;
   height: 150px;
-  border: 1px solid slategray;
+  border: 3px solid slategray;
   border-radius: 10px;
 }
 

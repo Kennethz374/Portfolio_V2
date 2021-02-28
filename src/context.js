@@ -6,7 +6,7 @@ import { TOGGLE_HAMBURGER, TOGGLE_EXP } from "./action";
 const initialState = {
 	isHamburgerOpen: false,
 	data: data,
-	jobShow: 1,
+	jobShow: 0,
 };
 
 const AppContext = React.createContext();

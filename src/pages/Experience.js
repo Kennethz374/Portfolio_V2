@@ -44,6 +44,7 @@ function Experience() {
 							}
 						})}
 					</article>
+					<button id="CV-btn">Show CV</button>
 				</div>
 			</div>
 		</section>

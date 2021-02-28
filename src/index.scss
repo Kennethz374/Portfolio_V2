@@ -233,7 +233,7 @@
 // ==========Experience=========
 
 .exp_container {
-	background-color: #e1e7ed;
+	background-color: white;
 	opacity: 0.9;
 	height: 100%;
 	width: 100%;
@@ -272,6 +272,12 @@
 			.all {
 				margin: 0 auto;
 			}
+			#CV-btn {
+				background-color: tomato;
+				width: 40%;
+				margin: 2rem auto;
+				box-shadow: $light-shadow;
+			}
 			button {
 				border: none;
 				font-size: 1rem;
@@ -280,7 +286,6 @@
 				padding: 0.5rem;
 				margin: 5px;
 				background-color: transparent;
-				// box-shadow: $light-shadow;
 				color: $black;
 				cursor: pointer;
 				opacity: 0.8;
@@ -305,10 +310,11 @@
 				img {
 					width: 150px;
 					height: 150px;
-					border: 1px solid slategray;
+					border: 3px solid slategray;
 					border-radius: 10px;
 				}
 			}
+
 			@media screen and (min-width: 670px) {
 				.exp_item_content {
 					display: flex;
