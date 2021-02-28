@@ -10,7 +10,9 @@ function Home() {
 			<section className="home_container">
 				<div className="overlay"></div>
 				<article className="home_info">
-					<h1 className="home_name">I'm Kenneth</h1>
+					<h1 className="home_name">
+						<span>I'm</span> Kenneth
+					</h1>
 					<p className="home_description">
 						a creative full-stack web dev with a background in Econics and 7
 						years of experience in Maufacturing. My goal is to make web apps

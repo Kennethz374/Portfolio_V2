@@ -190,6 +190,19 @@
 		max-width: 700px;
 		line-height: 2;
 		z-index: 10;
+		span {
+			font-size: 2rem;
+		}
+
+		h1 {
+			color: white;
+			font-family: "Sacramento", cursive;
+			font-size: 5rem;
+		}
+		p {
+			color: white;
+			font-family: "Gloria Hallelujah", cursive;
+		}
 	}
 
 	.home_contact_btn {
@@ -307,10 +320,11 @@
 			line-height: 2;
 
 			.exp_item {
+				margin: 0 auto 8rem auto;
 				img {
 					width: 150px;
 					height: 150px;
-					border: 3px solid slategray;
+					// border: 3px solid slategray;
 					border-radius: 10px;
 				}
 			}
