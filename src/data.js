@@ -152,7 +152,7 @@ let data = {
 			date: "Sept 2009 - Sept 2013",
 		},
 	],
-	project: [
+	projects: [
 		{
 			id: 1,
 			projectTitle: "Photo Gallery",
@@ -164,19 +164,18 @@ let data = {
 		},
 		{
 			id: 2,
-			projectTitle: "Photo Gallery",
-			projectDesc:
-				"Photo Gallery with an infinite scroll fetching with React.js",
-			projectImg: "https://i.ibb.co/LxQm6FG/Photo-Gallery.png",
-			projectSite: "https://kennethz374.github.io/PhotoGallery/",
-			projectCode: "https://github.com/Kennethz374/PhotoGallery",
+			projectTitle: "E-commerce Cart",
+			projectDesc: "A refresher project about useReducer in React",
+			projectImg: "https://i.ibb.co/TwZqXmc/Shopping-Cart.png",
+			projectSite: "https://kennethz374.github.io/Cart/",
+			projectCode: "https://github.com/Kennethz374/Cart",
 		},
 		{
 			id: 3,
-			projectTitle: "Photo Gallery",
+			projectTitle: "Covid Tracker",
 			projectDesc:
-				"Photo Gallery with an infinite scroll fetching with React.js",
-			projectImg: "https://i.ibb.co/LxQm6FG/Photo-Gallery.png",
+				"A simple application tracking down numbers of covid cases everyday",
+			projectImg: "https://i.ibb.co/MMhwG4H/covid.png",
 			projectSite: "https://kennethz374.github.io/PhotoGallery/",
 			projectCode: "https://github.com/Kennethz374/PhotoGallery",
 		},
