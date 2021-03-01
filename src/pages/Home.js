@@ -2,6 +2,8 @@ import React from "react";
 import { useGlobalContext } from "../context";
 import { Link } from "react-router-dom";
 import Experience from "../pages/Experience";
+import { BsChat } from "react-icons/bs";
+import Projects from "./Projects";
 
 function Home() {
 	const { data } = useGlobalContext();
@@ -19,14 +21,16 @@ function Home() {
 						that solve people's problems
 					</p>
 					<Link to="/contact">
-						<button className="home_contact_btn">CONTACT ME</button>
+						<button className="home_contact_btn">
+							CONTACT ME <BsChat />
+						</button>
 					</Link>
 
 					<ul className="home_social_list">
 						{data.socialList.map((social) => {
 							return (
 								<li key={social.id}>
-									<a href={social.url} target="_blank">
+									<a href={social.url} target="_blank" rel="noreferrer">
 										{social.icon}
 									</a>
 								</li>
@@ -36,6 +40,7 @@ function Home() {
 				</article>
 			</section>
 			<Experience />
+			<Projects />
 		</>
 	);
 }

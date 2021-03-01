@@ -120,7 +120,7 @@ let data = {
 			position: "Full Time Student",
 			image: "https://i.ibb.co/3MR7txT/lighthouselabs.jpg",
 			desc:
-				" Lighthouse Labs full-time programs: 12 weeks, 12 hours a day; the most intensive, immersive, accelerated courses; Main stacks includes HTML, CSS, REACT, RUBY&RAIL, CYPRESS, pgSQL",
+				" Lighthouse Labs full-time programs: 12 weeks, 12 hours a day; the most intensive, immersive, accelerated courses; Main stacks includes HTML, CSS, REACT, RUBY&RAIL, CYPRESS, pgSQL, Node.js",
 			date: "Aug 2019 - Nov 2019",
 		},
 		{
