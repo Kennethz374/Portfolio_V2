@@ -152,5 +152,34 @@ let data = {
 			date: "Sept 2009 - Sept 2013",
 		},
 	],
+	project: [
+		{
+			id: 1,
+			projectTitle: "Photo Gallery",
+			projectDesc:
+				"Photo Gallery with an infinite scroll fetching with React.js",
+			projectImg: "https://i.ibb.co/LxQm6FG/Photo-Gallery.png",
+			projectSite: "https://kennethz374.github.io/PhotoGallery/",
+			projectCode: "https://github.com/Kennethz374/PhotoGallery",
+		},
+		{
+			id: 2,
+			projectTitle: "Photo Gallery",
+			projectDesc:
+				"Photo Gallery with an infinite scroll fetching with React.js",
+			projectImg: "https://i.ibb.co/LxQm6FG/Photo-Gallery.png",
+			projectSite: "https://kennethz374.github.io/PhotoGallery/",
+			projectCode: "https://github.com/Kennethz374/PhotoGallery",
+		},
+		{
+			id: 3,
+			projectTitle: "Photo Gallery",
+			projectDesc:
+				"Photo Gallery with an infinite scroll fetching with React.js",
+			projectImg: "https://i.ibb.co/LxQm6FG/Photo-Gallery.png",
+			projectSite: "https://kennethz374.github.io/PhotoGallery/",
+			projectCode: "https://github.com/Kennethz374/PhotoGallery",
+		},
+	],
 };
 export default data;
