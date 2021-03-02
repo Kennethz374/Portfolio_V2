@@ -1,9 +1,10 @@
 import React from "react";
 import { useGlobalContext } from "../context";
 import { Link } from "react-router-dom";
-import Experience from "../pages/Experience";
 import { BsChat } from "react-icons/bs";
+import Experience from "../pages/Experience";
 import Projects from "./Projects";
+import Reference from "./Reference";
 
 function Home() {
 	const { data } = useGlobalContext();
@@ -41,6 +42,7 @@ function Home() {
 			</section>
 			<Experience />
 			<Projects />
+			<Reference />
 		</>
 	);
 }

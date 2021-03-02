@@ -91,24 +91,26 @@ let data = {
 	reference: [
 		{
 			id: 1,
-			images: "https://i.ibb.co/HYmr2wB/SFU.png",
+			image: "https://i.ibb.co/HYmr2wB/SFU.png",
 			name: "William Yu",
-			title: "Production Manager",
+			title: "Production Manager in FLIR IIS",
 			quote: FirstQuote,
 		},
 
 		{
 			id: 2,
-			images: "https://i.ibb.co/HYmr2wB/SFU.png",
+			image:
+				"https://i.ibb.co/RQbVw71/Screen-Shot-2021-03-01-at-10-41-16-PM.png",
 			name: "Shahil Prasad",
 			title: "Senior Operator in FLIR IIS",
 			quote: SecondQuote,
 		},
 		{
 			id: 3,
-			images: "https://i.ibb.co/HYmr2wB/SFU.png",
+			image:
+				"https://i.ibb.co/h7ph1fD/Screen-Shot-2021-03-01-at-10-43-34-PM.png",
 			name: "Steven Chan",
-			title: "Supervisor",
+			title: "Supervisor in Lucid Vision",
 			quote: ThirdQuote,
 		},
 	],
