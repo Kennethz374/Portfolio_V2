@@ -534,7 +534,7 @@ p {
 }
 
 .project_container .project_card {
-  margin: 5px 5px;
+  margin: 8px 8px;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   display: -webkit-box;
@@ -546,6 +546,15 @@ p {
           flex-direction: column;
   border-radius: 0.5rem;
   background-color: white;
+}
+
+.project_container .project_card:hover {
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .project_container .project_card .project_img {
