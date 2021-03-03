@@ -1,7 +1,66 @@
 import React from "react";
 
 function About() {
-	return <div>ABOUT PAGE</div>;
+	return (
+		<>
+			<article className="section_one">
+				<p className="p1">
+					&ensp; Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Perferendis vero est incidunt labore! Voluptates, exercitationem
+					animi. Beatae, modi! Harum maiores nemo in nesciunt. Et sed maiores
+					voluptas laboriosam alias dolorem atque dolore accusantium
+					necessitatibus consequatur accusamus fugit sapiente doloremque
+					aliquam, eaque consectetur dignissimos quod cum cumque veritatis
+					quibusdam eligendi. Sint?
+				</p>
+				<img
+					className="avatar"
+					src="https://i.ibb.co/q0wx5vF/edf.jpg"
+					alt="edf"
+				/>
+			</article>
+			<hr />
+			<article className="section_one">
+				<img
+					className="avatar"
+					src="https://i.ibb.co/zVZMLQ8/rpt.jpg"
+					alt="rpt"
+				/>
+				<p className="p1">
+					&ensp; Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Perferendis vero est incidunt labore! Voluptates, exercitationem
+					animi. Beatae, modi! Harum maiores nemo in nesciunt. Et sed maiores
+					voluptas laboriosam alias dolorem atque dolore accusantium
+					necessitatibus consequatur accusamus fugit sapiente doloremque
+					aliquam, eaque consectetur dignissimos quod cum cumque veritatis
+					quibusdam eligendi. Sint?
+				</p>
+				<img
+					className="avatar"
+					src="https://i.ibb.co/vsS4YGx/cof.jpg"
+					alt="cof"
+				/>
+			</article>
+			<hr />
+			<article className="section_one">
+				<p className="p1">
+					&ensp; Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Perferendis vero est incidunt labore! Voluptates, exercitationem
+					animi. Beatae, modi! Harum maiores nemo in nesciunt. Et sed maiores
+					voluptas laboriosam alias dolorem atque dolore accusantium
+					necessitatibus consequatur accusamus fugit sapiente doloremque
+					aliquam, eaque consectetur dignissimos quod cum cumque veritatis
+					quibusdam eligendi. Sint?
+				</p>
+				<img
+					className="avatar"
+					src="https://i.ibb.co/FHcfDGt/basketball.jpg"
+					alt="basketball"
+				/>
+			</article>
+			<hr />
+		</>
+	);
 }
 
 export default About;

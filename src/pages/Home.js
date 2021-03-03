@@ -5,6 +5,7 @@ import { BsChat } from "react-icons/bs";
 import Experience from "../pages/Experience";
 import Projects from "./Projects";
 import Reference from "./Reference";
+import About from "../pages/About";
 
 function Home() {
 	const { data } = useGlobalContext();
@@ -43,6 +44,7 @@ function Home() {
 			<Experience />
 			<Projects />
 			<Reference />
+			<About />
 		</>
 	);
 }
