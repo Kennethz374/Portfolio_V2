@@ -1,11 +1,11 @@
 import React from "react";
-const formSpreeId = process.env.REACT_APP_FORMSPREE_ID;
+// const formSpreeId = process.env.REACT_APP_FORMSPREE_ID;
 function Contact() {
 	return (
 		<section className="contact-page">
 			<article className="contact-form">
 				<h1>get in touch</h1>
-				<form action={`https://formspree.io/f/${formSpreeId}`} method="POST">
+				<form action={`https://formspree.io/f/maylgkoq`} method="POST">
 					<div className="form-group">
 						<input
 							type="text"
