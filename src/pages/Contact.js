@@ -5,7 +5,7 @@ function Contact() {
 		<section className="contact-page">
 			<article className="contact-form">
 				<h1>get in touch</h1>
-				<form action={`https://formspree.io/f/maylgkoq`} method="POST">
+				<form action={`https://formspree.io/f/${formSpreeId}`} method="POST">
 					<div className="form-group">
 						<input
 							type="text"
