@@ -123,6 +123,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  overflow: hidden;
 }
 
 .nav-container .nav_logo {
@@ -534,7 +535,7 @@ p {
 }
 
 .project_container .project_card {
-  margin: 8px 8 px;
+  margin: 8px 8px;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   display: -webkit-box;
