@@ -128,7 +128,7 @@ p {
 
 .nav-container .nav_logo {
   text-align: center;
-  color: #102a42;
+  color: #222;
 }
 
 .nav-container .nav_bar {
@@ -926,6 +926,7 @@ hr {
   display: grid;
   place-items: center;
   padding: 5rem 0;
+  height: 75vh;
 }
 
 .contact-form {
@@ -1015,7 +1016,7 @@ hr {
 }
 
 .footer .footer_social_list {
-  width: 60%;
+  width: 40%;
   margin: 2rem auto;
   display: -webkit-box;
   display: -ms-flexbox;
