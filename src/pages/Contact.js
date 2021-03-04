@@ -1,5 +1,5 @@
 import React from "react";
-// const formSpreeId = process.env.REACT_APP_FORMSPREE_ID;
+const formSpreeId = process.env.REACT_APP_FORMSPREE_ID;
 function Contact() {
 	return (
 		<section className="contact-page">
