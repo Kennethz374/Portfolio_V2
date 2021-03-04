@@ -1006,4 +1006,27 @@ hr {
   background-color: #48647f;
   text-transform: uppercase;
 }
+
+.footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  height: 150px;
+}
+
+.footer .footer_social_list {
+  width: 60%;
+  margin: 2rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 2rem;
+  padding-top: 1.8rem;
+}
+
+.footer .footer_social_list a {
+  color: white;
+}
 /*# sourceMappingURL=index.css.map */

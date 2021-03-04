@@ -7,6 +7,7 @@ import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
 import Reference from "./pages/Reference";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
@@ -32,6 +33,7 @@ function App() {
 					<Reference />
 				</Route>
 			</Switch>
+			<Footer />
 		</Router>
 	);
 }

@@ -721,3 +721,23 @@ hr {
 	background-color: $grey-4;
 	text-transform: uppercase;
 }
+
+// FOOTER =========
+.footer {
+	background-color: $black;
+	color: $white;
+	text-align: center;
+	height: 150px;
+
+	.footer_social_list {
+		width: 60%;
+		margin: 2rem auto;
+		display: flex;
+		justify-content: space-around;
+		font-size: 2rem;
+		padding-top: 1.8rem;
+		a {
+			color: white;
+		}
+	}
+}
