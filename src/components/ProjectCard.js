@@ -13,7 +13,7 @@ function ProjectCard({
 			<div className="project_img">
 				<img src={projectImg} alt={projectTitle} className="project_img" />
 				<div className="project_home_logo">
-					<a href={projectSite}>
+					<a href={projectSite} target="_blank">
 						<FaHome />
 					</a>
 				</div>

@@ -6,6 +6,7 @@ import Experience from "../pages/Experience";
 import Projects from "./Projects";
 import Reference from "./Reference";
 import About from "../pages/About";
+import Contact from "../pages/Contact";
 
 function Home() {
 	const { data } = useGlobalContext();
@@ -18,7 +19,7 @@ function Home() {
 						<span>I'm</span> Kenneth
 					</h1>
 					<p className="home_description">
-						a creative full-stack web dev with a background in Econics and 7
+						a creative full-stack web dev with a background in Economics and 7
 						years of experience in Maufacturing. My goal is to make web apps
 						that solve people's problems
 					</p>
@@ -45,6 +46,7 @@ function Home() {
 			<Projects />
 			<Reference />
 			<About />
+			<Contact />
 		</>
 	);
 }

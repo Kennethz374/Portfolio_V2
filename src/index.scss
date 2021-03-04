@@ -667,3 +667,57 @@ hr {
 		}
 	}
 }
+// =============== Contact Page =============== */
+.contact-page {
+	display: grid;
+	place-items: center;
+	padding: 5rem 0;
+}
+.contact-form {
+	background: $white;
+	border-radius: $radius;
+	text-align: center;
+	box-shadow: $light-shadow;
+	transition: $transition;
+	width: 90vw;
+	max-width: 35rem;
+}
+.contact-form:hover {
+	box-shadow: $dark-shadow;
+}
+.contact-form h3 {
+	padding-top: 1.25rem;
+	color: $grey-5;
+}
+.form-group {
+	padding: 1rem 1.5rem;
+}
+.form-control {
+	display: block;
+	width: 100%;
+	padding: 0.75rem 1rem;
+	border: none;
+	margin-bottom: 1.25rem;
+	background: $grey-10;
+	border-radius: $radius;
+	text-transform: uppercase;
+	letter-spacing: $spacing;
+}
+.form-control::placeholder {
+	font-family: sans-serif;
+	color: $grey-1;
+	text-transform: uppercase;
+	letter-spacing: $spacing;
+}
+.submit-btn {
+	display: block;
+	width: 100%;
+	padding: 1rem;
+	border-bottom-left-radius: $radius;
+	border-bottom-right-radius: $radius;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+	color: $white;
+	background-color: $grey-4;
+	text-transform: uppercase;
+}
