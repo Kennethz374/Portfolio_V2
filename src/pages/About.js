@@ -2,7 +2,8 @@ import React from "react";
 
 function About() {
 	return (
-		<>
+		<section className="about_container">
+			<h1>ABOUT KENNETH</h1>
 			<article className="section_one">
 				<p className="p1">
 					&ensp; Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -35,11 +36,6 @@ function About() {
 					aliquam, eaque consectetur dignissimos quod cum cumque veritatis
 					quibusdam eligendi. Sint?
 				</p>
-				<img
-					className="avatar"
-					src="https://i.ibb.co/vsS4YGx/cof.jpg"
-					alt="cof"
-				/>
 			</article>
 			<hr />
 			<article className="section_one">
@@ -59,7 +55,7 @@ function About() {
 				/>
 			</article>
 			<hr />
-		</>
+		</section>
 	);
 }
 
