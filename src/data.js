@@ -181,6 +181,15 @@ let data = {
 			projectSite: "https://kennethz374.github.io/PhotoGallery/",
 			projectCode: "https://github.com/Kennethz374/PhotoGallery",
 		},
+		{
+			id: 4,
+			projectTitle: "Search Github User Stats",
+			projectDesc:
+				"simple application that can search github users and display relative data with fusion charts, with login and logout",
+			projectImg: "https://i.ibb.co/tQD259r/search-Git-Hub-User.png",
+			projectSite: "https://kenneth-github-user.netlify.app/",
+			projectCode: "https://github.com/Kennethz374/SearchGitHubUsersStats",
+		},
 	],
 };
 export default data;
