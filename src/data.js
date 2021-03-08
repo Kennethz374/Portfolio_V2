@@ -190,6 +190,15 @@ let data = {
 			projectSite: "https://kenneth-github-user.netlify.app/",
 			projectCode: "https://github.com/Kennethz374/SearchGitHubUsersStats",
 		},
+		{
+			id: 5,
+			projectTitle: "Cocktail",
+			projectDesc: "A web that can search relative info of different cocktail",
+			projectImg: "https://i.ibb.co/Q95cRcs/cocktail.png",
+			projectSite: "https://kennethscocktails.web.app/",
+			projectCode:
+				"https://github.com/Kennethz374/React-Project-Master/tree/master/15-cocktails/setup",
+		},
 	],
 };
 export default data;
