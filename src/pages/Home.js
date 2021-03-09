@@ -7,9 +7,13 @@ import Projects from "./Projects";
 import Reference from "./Reference";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
+import CvModal from "../components/CvModal";
 
 function Home() {
-	const { data } = useGlobalContext();
+	const { data, isCVOpen } = useGlobalContext();
+	if (isCVOpen) {
+		return <CvModal />;
+	}
 	return (
 		<>
 			<section className="home_container">
