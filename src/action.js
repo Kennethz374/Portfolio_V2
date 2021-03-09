@@ -1,3 +1,4 @@
 export const TOGGLE_HAMBURGER = "TOGGLE_HAMBURGER";
 export const TOGGLE_EXP = "TOGGLE_EXP";
 export const TOGGLE_REFERENCE = "TOGGLE_REFERENCE";
+export const TOGGLE_CV = "TOGGLE_CV";

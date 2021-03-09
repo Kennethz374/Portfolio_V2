@@ -1,9 +1,11 @@
 import React from "react";
 import { useGlobalContext } from "../context";
 import ExpItem from "../components/ExpItem";
+import CvModal from "../components/CvModal";
 
 function Experience() {
-	const { data, toggleExp, jobShow } = useGlobalContext();
+	const { data, toggleExp, jobShow, toggleCV, isCVOpen } = useGlobalContext();
+	console.log(isCVOpen);
 	return (
 		<section className="exp_container">
 			<div className="exp_center">
@@ -41,7 +43,13 @@ function Experience() {
 							}
 						})}
 					</article>
-					<button id="CV-btn">Show CV</button>
+					{isCVOpen ? (
+						<CvModal />
+					) : (
+						<button id="CV-btn" onClick={toggleCV}>
+							Show CV
+						</button>
+					)}
 				</div>
 			</div>
 		</section>

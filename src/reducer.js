@@ -1,4 +1,9 @@
-import { TOGGLE_HAMBURGER, TOGGLE_EXP, TOGGLE_REFERENCE } from "./action";
+import {
+	TOGGLE_HAMBURGER,
+	TOGGLE_EXP,
+	TOGGLE_REFERENCE,
+	TOGGLE_CV,
+} from "./action";
 
 const reducer = (state, action) => {
 	if (action.type === TOGGLE_HAMBURGER) {
@@ -11,7 +16,6 @@ const reducer = (state, action) => {
 		return { ...state, jobShow: action.payload };
 	}
 	if (action.type === TOGGLE_REFERENCE) {
-		console.log("you toggle review section");
 		if (action.payload === "nextSlide") {
 			if (state.referenceIndex + 1 > state.data.reference.length - 1) {
 				return { ...state, referenceIndex: 0 };
@@ -26,6 +30,10 @@ const reducer = (state, action) => {
 				return { ...state, referenceIndex: state.referenceIndex - 1 };
 			}
 		}
+	}
+
+	if (action.type === TOGGLE_CV) {
+		return { ...state, isCVOpen: !state.isCVOpen };
 	}
 	return { ...state };
 };
