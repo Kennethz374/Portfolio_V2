@@ -2,6 +2,7 @@ import React from "react";
 import { FaHamburger } from "react-icons/fa";
 import { GiSkullCrossedBones } from "react-icons/gi";
 import { useGlobalContext } from "../context";
+import { motion } from "framer-motion";
 
 function Navbar() {
 	const { openHamburger, isHamburgerOpen, data } = useGlobalContext();
@@ -15,12 +16,16 @@ function Navbar() {
 				<ul className="nav_menu">
 					{data.navList.map((navItem) => {
 						return (
-							<li key={navItem.id}>
+							<motion.li
+								key={navItem.id}
+								initial={{ x: "-100vw" }}
+								animate={{ x: 0 }}
+							>
 								<a href={navItem.url}>
 									<div className="nav_icon">{navItem.icon}</div>
 									<div className="nav_text">{navItem.text}</div>
 								</a>
-							</li>
+							</motion.li>
 						);
 					})}
 					{console.log(data)}
