@@ -30,7 +30,6 @@ function Navbar() {
 							</motion.li>
 						);
 					})}
-					{console.log(data)}
 				</ul>
 				<ul className="nav_social">
 					{data.socialList.map((social) => {

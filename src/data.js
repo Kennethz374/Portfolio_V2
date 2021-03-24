@@ -178,8 +178,8 @@ let data = {
 			projectDesc:
 				"A simple application tracking down numbers of covid cases everyday",
 			projectImg: "https://i.ibb.co/MMhwG4H/covid.png",
-			projectSite: "https://kennethz374.github.io/PhotoGallery/",
-			projectCode: "https://github.com/Kennethz374/PhotoGallery",
+			projectSite: "https://covid-19-tracker-146e4.web.app/",
+			projectCode: "https://github.com/Kennethz374/Covid-19-Tracker",
 		},
 		{
 			id: 4,
