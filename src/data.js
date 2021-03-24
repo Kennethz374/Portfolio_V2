@@ -91,7 +91,7 @@ let data = {
 	reference: [
 		{
 			id: 1,
-			image: "https://i.ibb.co/Q6mVmJR/willie.png",
+			image: "https://i.ibb.co/YTh5BmZ/WillY.png",
 			name: "William Yu",
 			title: "Production Manager in FLIR IIS",
 			quote: FirstQuote,
