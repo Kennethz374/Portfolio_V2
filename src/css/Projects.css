@@ -1,9 +1,13 @@
+.project {
+  background-color: darkgrey;
+}
+
 .project .project_section_title {
   padding: 2rem;
   text-align: center;
 }
 
-.project_container {
+.project .project_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
