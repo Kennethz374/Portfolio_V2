@@ -1,7 +1,6 @@
 import React from "react";
 import { FaHome } from "react-icons/fa";
 function ProjectCard({
-	id,
 	projectTitle,
 	projectDesc,
 	projectImg,
@@ -13,7 +12,7 @@ function ProjectCard({
 			<div className="project_img">
 				<img src={projectImg} alt={projectTitle} className="project_img" />
 				<div className="project_home_logo">
-					<a href={projectSite} target="_blank">
+					<a href={projectSite} target="_blank" rel="noreferrer">
 						<FaHome />
 					</a>
 				</div>

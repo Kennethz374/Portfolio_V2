@@ -13,7 +13,7 @@ function Reference() {
 		return () => {
 			clearInterval(slider);
 		};
-	}, [referenceIndex]);
+	}, [referenceIndex, toggleReference]);
 
 	return (
 		<section className="ref_section">

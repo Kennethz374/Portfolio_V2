@@ -32,15 +32,16 @@ function Experience() {
 					<article className="exp_job">
 						{data.exp.map((job) => {
 							if (jobShow === job.id) {
-								return <ExpItem {...job} />;
+								return <ExpItem {...job} key={job.id} />;
 							}
 							if (jobShow === 0) {
 								return (
 									<>
-										<ExpItem {...job} />
+										<ExpItem {...job} key={job.id} />
 									</>
 								);
 							}
+							return null;
 						})}
 					</article>
 					{isCVOpen ? (
