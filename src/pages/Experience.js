@@ -38,6 +38,7 @@ function Experience() {
 							if (jobShow === 0) {
 								return <ExpItem {...job} key={job.id} />;
 							}
+							return null;
 						})}
 					</article>
 					{isCVOpen ? (
