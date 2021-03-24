@@ -5,7 +5,7 @@ import CvModal from "../components/CvModal";
 
 function Experience() {
 	const { data, toggleExp, jobShow, toggleCV, isCVOpen } = useGlobalContext();
-	console.log(isCVOpen);
+	console.log(jobShow);
 	return (
 		<section className="exp_container">
 			<div className="exp_center">
@@ -35,13 +35,8 @@ function Experience() {
 								return <ExpItem {...job} key={job.id} />;
 							}
 							if (jobShow === 0) {
-								return (
-									<>
-										<ExpItem {...job} key={job.id} />
-									</>
-								);
+								return <ExpItem {...job} key={job.id} />;
 							}
-							return null;
 						})}
 					</article>
 					{isCVOpen ? (

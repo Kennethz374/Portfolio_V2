@@ -4,7 +4,7 @@ import React from "react";
 function ExpItem(job) {
 	return (
 		<>
-			<div className="exp_item" key={job.id}>
+			<div className="exp_item">
 				<div className="exp_item_title">
 					<h2>{job.organization}</h2>
 					<h3>{job.position}</h3>
