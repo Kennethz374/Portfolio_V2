@@ -1,6 +1,8 @@
 import React from "react";
 import { useGlobalContext } from "../context";
 
+import "../css/Footer.css";
+
 function Footer() {
 	const { data } = useGlobalContext();
 	return (

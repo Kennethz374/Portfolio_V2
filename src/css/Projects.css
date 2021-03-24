@@ -1,0 +1,15 @@
+.project .project_section_title {
+  padding: 2rem;
+  text-align: center;
+}
+
+.project_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 90%;
+  margin: 1rem auto;
+}
+/*# sourceMappingURL=Projects.css.map */

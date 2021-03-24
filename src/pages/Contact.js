@@ -1,4 +1,7 @@
 import React from "react";
+
+import "../css/Contact.css";
+
 const formSpreeId = process.env.REACT_APP_FORMSPREE_ID;
 function Contact() {
 	return (

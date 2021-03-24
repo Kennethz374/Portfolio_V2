@@ -2,6 +2,7 @@ import React from "react";
 import { useGlobalContext } from "../context";
 import ExpItem from "../components/ExpItem";
 import CvModal from "../components/CvModal";
+import "../css/Experience.css";
 
 function Experience() {
 	const { data, toggleExp, jobShow, toggleCV, isCVOpen } = useGlobalContext();

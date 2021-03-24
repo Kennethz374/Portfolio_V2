@@ -1,13 +1,15 @@
 import React from "react";
-import { useGlobalContext } from "../context";
 import { Link } from "react-router-dom";
 import { BsChat } from "react-icons/bs";
+
+import { useGlobalContext } from "../context";
 import Experience from "../pages/Experience";
 import Projects from "./Projects";
 import Reference from "./Reference";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 import CvModal from "../components/CvModal";
+import "../css/Home.css";
 
 function Home() {
 	const { data, isCVOpen } = useGlobalContext();

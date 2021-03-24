@@ -1,5 +1,6 @@
 import React from "react";
-// import { useGlobalContext } from "../context";
+
+import "../css/ExpItem.css";
 
 function ExpItem(job) {
 	return (

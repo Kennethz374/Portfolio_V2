@@ -1,8 +1,10 @@
 import React from "react";
 import { FaHamburger } from "react-icons/fa";
 import { GiSkullCrossedBones } from "react-icons/gi";
-import { useGlobalContext } from "../context";
 import { motion } from "framer-motion";
+
+import { useGlobalContext } from "../context";
+import "../css/Navbar.css";
 
 function Navbar() {
 	const { openHamburger, isHamburgerOpen, data } = useGlobalContext();

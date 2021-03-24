@@ -1,6 +1,8 @@
 import React from "react";
 import { useGlobalContext } from "../context";
 import cv from "../images/CV.png";
+import "../css/CvModal.css";
+
 function CvModal() {
 	const { toggleCV } = useGlobalContext();
 	const handleBackdropClose = (e) => {

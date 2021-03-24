@@ -1,0 +1,23 @@
+/* dark shades of primary color*/
+/* primary/main color */
+/* lighter shades of primary color */
+/* darkest grey - used for headings */
+/* grey used for paragraphs */
+
+.backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	overflow-y: scroll;
+}
+
+.backdrop .cv-img {
+	-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	display: block;
+	margin: auto;
+}
+/*# sourceMappingURL=CvModal.css.map */

@@ -1,0 +1,28 @@
+/* dark shades of primary color*/
+/* primary/main color */
+/* lighter shades of primary color */
+/* darkest grey - used for headings */
+/* grey used for paragraphs */
+.footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  height: 150px;
+}
+
+.footer .footer_social_list {
+  width: 40%;
+  margin: 2rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 2rem;
+  padding-top: 1.8rem;
+}
+
+.footer .footer_social_list a {
+  color: white;
+}
+/*# sourceMappingURL=Footer.css.map */

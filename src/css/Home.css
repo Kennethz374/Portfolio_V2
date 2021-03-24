@@ -1,0 +1,99 @@
+/* dark shades of primary color*/
+/* primary/main color */
+/* lighter shades of primary color */
+/* darkest grey - used for headings */
+/* grey used for paragraphs */
+.home_container {
+  background: url(../images/Hero.jpg);
+  background-size: cover;
+  background-position: 60% 80%;
+  text-align: center;
+  height: 100vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home_container .overlay {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.5;
+  background-color: teal;
+  z-index: 1;
+}
+
+.home_container .home_info {
+  width: 80%;
+  max-width: 700px;
+  line-height: 2;
+  z-index: 10;
+}
+
+.home_container .home_info span {
+  font-size: 2rem;
+}
+
+.home_container .home_info h1 {
+  color: white;
+  font-family: "Sacramento", cursive;
+  font-size: 5rem;
+}
+
+.home_container .home_info p {
+  color: white;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+.home_container .home_contact_btn {
+  border: none;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  border-radius: 5px;
+  padding: 0.8rem;
+  margin: 5px;
+  background-color: black;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  color: white;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.home_container .home_contact_btn:hover {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  background-color: white;
+  color: black;
+}
+
+.home_container .home_social_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.home_container .home_social_list a {
+  color: white;
+}
+
+.home_container .home_social_list a :hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  color: #49a6e9;
+}
+/*# sourceMappingURL=Home.css.map */

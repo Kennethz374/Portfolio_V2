@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 import { FaQuoteRight } from "react-icons/fa";
+
 import { useGlobalContext } from "../context";
+import "../css/Reference.css";
 
 function Reference() {
 	const { data, toggleReference, referenceIndex } = useGlobalContext();

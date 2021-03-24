@@ -1,0 +1,26 @@
+.exp_item {
+  margin: 0 auto 8rem auto;
+}
+
+.exp_item_content img {
+  width: auto;
+  height: auto;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 670px) {
+  .exp_item_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 2rem auto;
+    text-align: left;
+  }
+  .exp_item_content p {
+    margin-left: 2rem;
+    font-size: 1.2rem;
+  }
+}
+/*# sourceMappingURL=ExpItem.css.map */

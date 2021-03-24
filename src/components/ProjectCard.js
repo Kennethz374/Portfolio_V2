@@ -1,5 +1,8 @@
 import React from "react";
 import { FaHome } from "react-icons/fa";
+
+import "../css/ProjectCard.css";
+
 function ProjectCard({
 	projectTitle,
 	projectDesc,

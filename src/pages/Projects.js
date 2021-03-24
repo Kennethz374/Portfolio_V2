@@ -1,6 +1,8 @@
 import React from "react";
+
 import ProjectCard from "../components/ProjectCard";
 import { useGlobalContext } from "../context";
+import "../css/Projects.css";
 
 function Projects() {
 	const { data } = useGlobalContext();
@@ -10,11 +12,9 @@ function Projects() {
 				<h1>Latest Projects</h1>
 			</article>
 			<article className="project_container">
-				{/* single item */}
 				{data.projects.map((project) => {
 					return <ProjectCard {...project} key={project.id} />;
 				})}
-				{/* end of single item */}
 			</article>
 		</section>
 	);
