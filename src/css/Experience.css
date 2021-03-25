@@ -70,11 +70,11 @@
 
 .exp_container .exp_center .exp_info button {
   border: none;
-  font-size: 1rem;
+  font-size: 0.9rem;
   letter-spacing: 0.1rem;
   border-radius: 5px;
   padding: 0.5rem;
-  margin: 5px;
+  margin: 5px auto;
   background-color: transparent;
   color: #222;
   cursor: pointer;
@@ -88,11 +88,12 @@
   color: white;
 }
 
-.exp_container .exp_center .exp_info button .exp_nav {
+.exp_container .exp_center .exp_info .exp_nav {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto auto;
-      grid-template-columns: auto auto auto auto;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 2rem;
 }
 
 .exp_container .exp_center .exp_job {
