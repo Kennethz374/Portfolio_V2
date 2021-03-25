@@ -25,10 +25,10 @@ function Navbar() {
 								initial={{ x: "-100vw" }}
 								animate={{ x: 0 }}
 							>
-								<a href={navItem.url}>
+								<Link to={navItem.url}>
 									<div className="nav_icon">{navItem.icon}</div>
 									<div className="nav_text">{navItem.text}</div>
-								</a>
+								</Link>
 							</motion.li>
 						);
 					})}
