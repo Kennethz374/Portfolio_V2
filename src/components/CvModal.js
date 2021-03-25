@@ -12,7 +12,7 @@ function CvModal() {
 	};
 	return (
 		<div className="backdrop" onClick={handleBackdropClose}>
-			<img src={cv} alt="cv" className="cv-img" />
+			<img src={cv} alt="cv" className="cv-img" onClick={toggleCV} />
 		</div>
 	);
 }
