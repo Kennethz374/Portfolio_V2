@@ -25,7 +25,7 @@ function Navbar() {
 								initial={{ x: "-100vw" }}
 								animate={{ x: 0 }}
 							>
-								<Link to={navItem.url}>
+								<Link to={navItem.url} onClick={openHamburger}>
 									<div className="nav_icon">{navItem.icon}</div>
 									<div className="nav_text">{navItem.text}</div>
 								</Link>

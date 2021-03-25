@@ -188,6 +188,7 @@
 
 .nav_menu_container .nav_social li a {
   font-size: 2rem;
+  color: #48647f;
 }
 
 .nav_menu_container .nav_social li a :hover {
@@ -195,5 +196,6 @@
           transform: scale(1.1);
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
+  color: #48647f;
 }
 /*# sourceMappingURL=Navbar.css.map */
