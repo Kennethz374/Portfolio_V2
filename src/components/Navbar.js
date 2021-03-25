@@ -54,7 +54,7 @@ function Navbar() {
 					{data.navList.map((category) => {
 						return (
 							<li className="category_item" key={category.id}>
-								<a href={category.url}>{category.text}</a>
+								<Link to={category.url}>{category.text}</Link>
 							</li>
 						);
 					})}
