@@ -9,6 +9,7 @@ import Reference from "./Reference";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 import CvModal from "../components/CvModal";
+import logo from "../images/logo.png";
 import "../css/Home.css";
 
 function Home() {
@@ -31,7 +32,7 @@ function Home() {
 					</p>
 					<Link to="/contact">
 						<button className="home_contact_btn">
-							CONTACT ME <BsChat />
+							contact me <BsChat />
 						</button>
 					</Link>
 

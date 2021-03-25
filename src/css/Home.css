@@ -50,11 +50,12 @@
 .home_container .home_info p {
   color: white;
   font-family: "Gloria Hallelujah", cursive;
+  text-transform: capitalize;
 }
 
 .home_container .home_contact_btn {
   border: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
   letter-spacing: 0.1rem;
   border-radius: 5px;
   padding: 0.8rem;
@@ -65,6 +66,8 @@
   color: white;
   cursor: pointer;
   opacity: 0.8;
+  text-transform: capitalize;
+  font-weight: 800;
 }
 
 .home_container .home_contact_btn:hover {

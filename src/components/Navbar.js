@@ -2,8 +2,10 @@ import React from "react";
 import { FaHamburger } from "react-icons/fa";
 import { GiSkullCrossedBones } from "react-icons/gi";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 import { useGlobalContext } from "../context";
+import logo from "../images/logo.png";
 import "../css/Navbar.css";
 
 function Navbar() {
@@ -45,7 +47,9 @@ function Navbar() {
 	} else {
 		return (
 			<nav className="nav-container">
-				<h1 className="nav_logo">Kz'</h1>
+				<Link to="/">
+					<img src={logo} alt="Kz" className="nav_logo" />
+				</Link>
 				<ul className="nav_category">
 					{data.navList.map((category) => {
 						return (
