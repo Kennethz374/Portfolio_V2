@@ -9,7 +9,6 @@ import Reference from "./Reference";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 import CvModal from "../components/CvModal";
-import logo from "../images/logo.png";
 import "../css/Home.css";
 
 function Home() {
