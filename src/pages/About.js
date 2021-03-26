@@ -15,7 +15,7 @@ function About() {
 						applications that help solving real problems.
 						<br />
 						&ensp;&ensp; I like being a developer because there are always
-						things to learn and to improve. Currently, I am focus on learing
+						things to learn and to improve. Currently, I am focusing on learning
 						MongoDb, Express, React and Node.js. The "MERN" stack allows me to
 						build all different kinds of web applications.
 					</p>
