@@ -204,7 +204,7 @@ let data = {
 			projectTitle: "QuickChef",
 			projectDesc:
 				"On Going Project: A MERN app that allow users to create, read, update and delete recipes",
-			projectImg: "https://i.ibb.co/RH5jHZm/quickchef.png",
+			projectImg: "https://i.ibb.co/DtjmG3N/localhost-3000.png",
 			projectSite: "www.kennethzhang.ca",
 			projectCode: "https://github.com/Kennethz374/QuickChef-BE",
 		},
