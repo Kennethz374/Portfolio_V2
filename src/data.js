@@ -199,6 +199,15 @@ let data = {
 			projectCode:
 				"https://github.com/Kennethz374/React-Project-Master/tree/master/15-cocktails/setup",
 		},
+		{
+			id: 6,
+			projectTitle: "QuickChef",
+			projectDesc:
+				"On Going Project: A MERN app that allow users to create, read, update and delete recipes",
+			projectImg: "https://i.ibb.co/RH5jHZm/quickchef.png",
+			projectSite: "www.kennethzhang.ca",
+			projectCode: "https://github.com/Kennethz374/QuickChef-BE",
+		},
 	],
 };
 export default data;
